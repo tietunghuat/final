@@ -1,0 +1,208 @@
+.header1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 50px;
+  padding-top: 25px;
+  padding-left: 2.5%;
+
+}
+
+.block {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 1920px;
+  height: auto;
+  clear: both;
+  font-family: 微軟正黑體;
+}
+
+.home {
+  width: 50px;
+  height: 50px;
+  margin-top: -80%;
+  margin-right: 10%;
+  margin-left: 90%;
+  margin-bottom: 0%;
+  transition: transform .8s;
+  cursor: pointer;
+}
+
+.home:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.card-container {
+  margin-top: 30px;
+  padding-left: 11%;
+  padding-right: 7.3%;
+  width: 20%;
+  height: 350px;
+  position: relative;
+  perspective: 1000px;
+  float: left;
+  justify-content: space-evenly;
+}
+
+.cover,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform.25s ease-in-out;
+  border-radius: 4px;
+  box-shadow: 2px 5px gray;
+
+}
+
+.cover {
+
+  transform: rotateY(0deg);
+  background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+
+}
+
+.card-container:hover .cover {
+  transform: rotateY(180deg);
+}
+
+.back {
+
+  transform: rotateY(-180deg);
+  background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+}
+
+.card-container:hover .back {
+  transform: rotateY(0deg);
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  float: left;
+
+}
+
+.think {
+  width: 94%;
+  padding: 20px;
+  overflow: auto;
+  height: 65%;
+  font-size: 18px;
+}
+
+.respond {
+  font-weight: bold;
+  padding-top: 25px;
+  padding-left: 2.5%;
+  font-size: 45px;
+  position: relative;
+  left: 20%;
+}
+
+.form {
+  display: block;
+  margin-top: 0em;
+}
+
+th {
+  font-family: 'Rochester',
+    cursive;
+}
+
+.table {
+  background-color: white;
+
+  margin: auto;
+  padding: 25px 0px;
+  border: 3px;
+  border-color: black;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  font-family: 微軟正黑體;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr,
+td {
+  padding: 10px;
+  background-color: white;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+
+}
+
+
+.table1 {
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+  border-radius: 8px;
+}
+
+input[type=submit] {
+
+  margin-top: 3%;
+  margin-left: 45%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 10px;
+}
+
+img.fbus {
+  position: absolute;
+  bottom: 1%;
+  left: 35%;
+  cursor: center;
+  width: 50px;
+  height: 50px;
+
+}
+
+.bulb {
+  position: fixed;
+  right: 3%;
+  bottom: 10%;
+  width: 5%;
+  height: 10%;
+}
+
+img.igus {
+  position: absolute;
+  bottom: 1%;
+  left: 60%;
+  cursor: center;
+  width: 50px;
+  height: 50px;
+}

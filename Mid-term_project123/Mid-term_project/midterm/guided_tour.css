@@ -1,0 +1,159 @@
+.map2 {
+  margin-top: 3%;
+  margin-left: 60%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+
+  border-radius: 8px;
+}
+
+.map2:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+  text-shadow: 2px 3px 3px #4d4d4d;
+  font-size: 50px;
+  font-family: 標楷體;
+}
+
+.home {
+  width: 50px;
+  height: 50px;
+  margin-top: -50%;
+  margin-right: 10%;
+  margin-left: 90%;
+  margin-bottom: 2%;
+  transition: transform .8s;
+  cursor: pointer;
+}
+
+.home:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+h4 {
+  position: relative;
+  left: 3%;
+}
+
+.bb {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  font-size: 25px;
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.cc {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  font-size: 25px;
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.dd {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  font-size: 25px;
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.ee {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  font-size: 25px;
+
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.ff {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -5%;
+  font-size: 25px;
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.gg {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: -10%;
+  font-size: 25px;
+  font-family: 標楷體;
+  font-weight: bold;
+}
+
+.article {
+  width: 2000px;
+  height: 900px;
+  margin-left: 25%;
+  font: 24px 'Arial';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: position 20% 20%;
+  background-size: cover;
+  line-height: 20px;
+}
+
+.section1 {
+  color: #fff;
+  background-image: url(Material/gym_2.jpg);
+  text-shadow: 3px 4px 5px #575353;
+  font-weight: bold;
+}
+
+.section2 {
+  color: #fff;
+  background-image: url(Material/pool.jpg);
+  text-shadow: 3px 4px 5px #373030;
+  font-weight: bold;
+}
+
+.section3 {
+  color: #fff;
+  background-image: url(Material/DSC_0151.JPG);
+  text-shadow: 3px 4px 5px #373030;
+  font-weight: bold;
+}
+
+.section4 {
+  color: #fff;
+  background-image: url(Material/2144670178990602_350812017794975054_o.jpg);
+  text-shadow: 3px 4px 5px #373030;
+  font-weight: bold;
+}
+
+.section5 {
+  color: #fff;
+  background-image: url(Material/DSC_0155.JPG);
+  text-shadow: 3px 4px 5px #373030;
+  font-weight: bold;
+}
+
+.section6 {
+  color: #fff;
+  background-image: url(Material/ground.jpg);
+  text-shadow: 3px 4px 5px #373030;
+  font-weight: bold;
+}

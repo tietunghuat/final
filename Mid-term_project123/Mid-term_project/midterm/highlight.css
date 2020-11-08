@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff1b9;
+  height: auto;
+  background: linear-gradient(141deg, #fff1b9 0%, #ff811b 100%);
+  width: auto;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.icon {
+  width: 25%;
+  float: left;
+  transition: transform .8s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.home {
+  position: absolute;
+  top: 20px;
+  left: 85%;
+  transition: transform .8s;
+  cursor: pointer;
+}
+
+.home:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.imagehome {
+  width: 100px;
+  height: 100px;
+}
+
+.h1 {
+  display: run-in;
+  padding-top: 35px;
+  padding-left: 40%;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Ma Shan Zheng', cursive;
+  transition: transform .8s;
+  cursor: pointer;
+}
+
+.h1:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.line {
+  width: 1500px;
+  height: 30px;
+  top: 2%;
+  left: 10%;
+}
+
+.image {
+  display: block;
+  width: 150%;
+  height: 357.80px;
+  border-radius: 15px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  left: 20%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 136.5%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  left: 15%;
+  bottom: 25%;
+}
+
+.image1 {
+  display: block;
+  width: 150%;
+  height: 357.8px;
+  border-radius: 15px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 136.5%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.container3 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  left: 20%;
+}
+
+.image3 {
+  display: block;
+  width: 150%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 136.5%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.container4 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  left: 15%;
+}
+
+.image4 {
+  display: block;
+  width: 150%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 136.5%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+footer {
+  background-color: #383A3F;
+  text-align: center;
+  color: white;
+}
+
+.contact {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fdc152e3;
+}
+
+.fbig {
+  height: 50px;
+  width: 50px;
+}
+
+.div1 {
+  columns: 2;
+  display: flex;
+  justify-content: space-around;
+  align-item: center;
+  margin-top: 3%;
+  margin-left: -60%;
+  margin-bottom: 3%;
+}
+
+.title1 {
+  margin-top: 0%;
+  margin-left: 30%;
+
+  margin-bottom: -5%;
+
+}
+
+.image6 {
+  margin-top: 2%;
+  width: 12%;
+  cursor: pointer;
+  float: left;
+}
+
+.image6 {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.image6:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.image7 {
+  float: left;
+  width: 11%;
+  cursor: pointer;
+}
+
+.image7 {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.image7:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.image8 {
+  float: left;
+  width: 11%;
+  cursor: pointer;
+}
+
+.image8 {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.image8:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.image9 {
+  float: left;
+  width: 11%;
+  cursor: pointer;
+}
+
+.image9 {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.image9:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.image10 {
+
+  width: 11%;
+  cursor: pointer;
+}
+
+.image10 {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.image10:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+header {
+  background-color: #FDD692;
+  font-size: medium;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 5px;
+  margin-left: 34%;
+  margin-right: 25%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff1b9;
+}
+
+.header1 {
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 80px;
+  letter-spacing: 50px;
+
+  line-height: 70px;
+}
+
+.div5 {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 50px;
+  letter-spacing: 30px;
+  line-height: 50px;
+  margin-top: 2%;
+  margin-left: 42.5%;
+  margin-right: 30%;
+
+}
+
+.image11 {
+  width: 10%;
+  padding-left: 25px;
+  padding-right: 60px;
+  overflow: hidden;
+  transition: all 0.6s;
+}
+
+.image11:hover {
+  transform: scale(1.2);
+}
+
+.home {
+  width: 5%;
+  height: 5%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 70%;
+}
+
+.space {
+  margin-top: 20%;
+  margin-left: 80%;
+  margin-right: 80%;
+  margin-bottom: 20%;
+}

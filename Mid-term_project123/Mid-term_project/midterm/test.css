@@ -1,0 +1,252 @@
+.root-title {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 195, 83);
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Zhi Mang Xing',
+        cursive;
+    font-size: 80px;
+    letter-spacing: 50px;
+    line-height: 70px;
+
+}
+
+.card {
+    transition: transform .8s;
+    cursor: pointer;
+}
+
+.card:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.r-title-image {
+    max-width: 125px;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 0 20px;
+
+}
+
+.r-title-image>img {
+    width: 100%;
+
+}
+
+.root-text>h3 {
+    font-family: 'Zhi Mang Xing',
+        cursive;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.root-body {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(252, 214, 145);
+}
+
+.root-body-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.root-body-item {
+    margin: 50px 0;
+}
+
+.root-body-item>div {
+    width: 70%;
+    height: 800px;
+    box-sizing: border-box;
+}
+
+.root-body-item2 {
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 25px;
+
+}
+
+.card-text {
+    font-size: 20px;
+    font-family: 標楷體;
+    font-style: italic;
+}
+
+.home {
+    position: relative;
+    top: 3%;
+    left: 30%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.div1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 50px;
+    letter-spacing: 30px;
+    line-height: 50px;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 25%;
+
+}
+
+.home {
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 80%;
+
+    transition: transform .8s;
+    cursor: pointer;
+}
+
+.home:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.image {
+    width: 20%;
+    padding-left: 25px;
+    padding-right: 60px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.title1 {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-bottom: -5%;
+
+}
+
+.image1 {
+    margin-top: 2%;
+    width: 15%;
+    cursor: pointer;
+    float: left;
+}
+
+.image1 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.image1:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.image2 {
+    float: left;
+    width: 15%;
+    cursor: pointer;
+}
+
+.image2 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.image2:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.image3 {
+    float: left;
+    width: 15%;
+    cursor: pointer;
+}
+
+.image3 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.image3:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.image4 {
+    float: left;
+    width: 15%;
+    cursor: pointer;
+}
+
+.image4 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.image4:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.image5 {
+
+    width: 15%;
+    cursor: pointer;
+}
+
+.image5 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.image5:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+footer {
+    background-color: #383A3F;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F6B352;
+}
+
+.fbig {
+    height: 50px;
+    width: 50px;
+}

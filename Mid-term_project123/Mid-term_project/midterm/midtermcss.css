@@ -1,0 +1,391 @@
+    header {
+      background-color: #FDD692;
+      font-size: medium;
+      padding: 10px;
+    }
+
+    .title {
+      margin-top: 5px;
+      margin-left: 34%;
+      margin-right: 25%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff1b9;
+    }
+
+    .header1 {
+      font-family: 'Zhi Mang Xing', cursive;
+      font-size: 80px;
+      letter-spacing: 50px;
+
+      line-height: 70px;
+    }
+
+    .div1 {
+      font-family: 'Kosugi Maru', sans-serif;
+      font-size: 50px;
+      letter-spacing: 30px;
+      line-height: 50px;
+      margin-top: 2%;
+      margin-left: 42.5%;
+      margin-right: 30%;
+
+    }
+
+    .image {
+      width: 10%;
+      padding-left: 25px;
+      padding-right: 60px;
+      overflow: hidden;
+      transition: all 0.6s;
+    }
+
+    .image:hover {
+      transform: scale(1.2);
+    }
+
+    .title1 {
+      margin-top: 0%;
+      margin-left: 30%;
+
+      margin-bottom: -5%;
+
+    }
+
+    .image1 {
+      margin-top: 2%;
+      width: 12%;
+      cursor: pointer;
+      float: left;
+    }
+
+    .image1 {
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+    }
+
+    .image1:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    .image2 {
+      float: left;
+      width: 11%;
+      cursor: pointer;
+    }
+
+    .image2 {
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+    }
+
+    .image2:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    .image3 {
+      float: left;
+      width: 11%;
+      cursor: pointer;
+    }
+
+    .image3 {
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+    }
+
+    .image3:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    .image4 {
+      float: left;
+      width: 11%;
+      cursor: pointer;
+    }
+
+    .image4 {
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+    }
+
+    .image4:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    .image5 {
+
+      width: 11%;
+      cursor: pointer;
+    }
+
+    .image5 {
+      border-radius: 50%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+    }
+
+    .image5:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+
+    nav {
+      background-color: #f8ff77;
+    }
+
+    .container {
+      margin-top: 8%;
+      margin-left: 2%;
+
+      width: 10px;
+
+    }
+
+    .container img {
+      position: absolute;
+      float: left;
+    }
+
+    .imageintro {
+      height: 350px;
+      width: 750px;
+      border-radius: 20px;
+
+    }
+
+    @-webkit-keyframes imgFade {
+      0% {
+        opacity: 1;
+      }
+
+      17% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      92% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes imgFade {
+      0% {
+        opacity: 1;
+      }
+
+      17% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      92% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes imgFade {
+      0% {
+        opacity: 1;
+      }
+
+      17% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      92% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes imgFade {
+      0% {
+        opacity: 1;
+      }
+
+      17% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      92% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .container img {
+      -webkit-animation-name: imgFade;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-duration: 8s;
+
+
+      -moz-animation-name: imgFade;
+      -moz-animation-timing-function: ease-in-out;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-duration: 8s;
+
+      -o-animation-name: imgFade;
+      -o-animation-timing-function: ease-in-out;
+      -o-animation-iteration-count: infinite;
+      -o-animation-duration: 8s;
+
+      animation-name: imgFade;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 8s;
+    }
+
+    .container img:nth-of-type(1) {
+      -webkit-animation-delay: 6s;
+      -moz-animation-delay: 6s;
+      -o-animation-delay: 6s;
+      animation-delay: 6s;
+    }
+
+    .container img:nth-of-type(2) {
+      -webkit-animation-delay: 4s;
+      -moz-animation-delay: 4s;
+      -o-animation-delay: 4s;
+      animation-delay: 4s;
+    }
+
+    .container img:nth-of-type(3) {
+      -webkit-animation-delay: 2s;
+      -moz-animation-delay: 2s;
+      -o-animation-delay: 2s;
+      animation-delay: 2s;
+    }
+
+    .container img:nth-of-type(4) {
+      -webkit-animation-delay: 0;
+      -moz-animation-delay: 0;
+      -o-animation-delay: 0;
+      animation-delay: 0;
+    }
+
+    hr {
+
+      border-color: rgb(241, 159, 6);
+      border-style: dashed;
+      border-width: medium;
+
+
+    }
+
+    .font1 {
+      font-family: 'Ma Shan Zheng', cursive;
+      position: relative;
+      padding-left: 800px;
+      font-size: 50px;
+    }
+
+    .p1 {
+      font-family: 'Rock Salt', cursive;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    p {
+      padding-left: 800px;
+      font-family: DFKai-sb;
+      font-size: 23px;
+    }
+
+    html {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    iframe {
+      margin-top: 0%;
+      margin-bottom: 1%;
+      margin-left: 35%;
+      margin-right: 30%;
+      border-radius: 10px;
+      border: orangered dotted 5px;
+
+
+    }
+
+    .imageline {
+      margin-top: 10%;
+      margin-left: 12.5%;
+      width: 1500px;
+      height: 50px;
+
+    }
+
+    .ball {
+      position: fixed;
+      left: 85%;
+      bottom: 0%;
+      height: 30%;
+      width: 20%;
+    }
+
+    footer {
+      background-color: #383A3F;
+      text-align: center;
+      color: white;
+    }
+
+    .videointro {
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-size: 45px;
+      text-align: center;
+      margin-top: 0%;
+
+    }
+
+    .contact {
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 20px;
+      text-align: center;
+      background-color: #F6B352;
+    }
+
+    .fbig {
+      height: 50px;
+      width: 50px;
+    }
